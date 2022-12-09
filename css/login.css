@@ -1,0 +1,171 @@
+body{
+background: #F6F6C9;
+}
+.login{
+    background: #F6F6C9;
+    color:#4FA095;
+}
+.logimg{
+    margin-top:54px;
+}
+.loginform{
+    margin-top:54px;
+    font-size: 14px;
+ 
+    
+}
+.top-0{
+    margin-top: 0px !important;
+}
+.radio-btn{
+    margin-top: 54px;
+    text-align: right;
+    padding-right: 50px;
+}
+.form1{
+    text-align: center;
+    border:1px solid #4FA095;
+    padding:50px;
+    margin:50px;
+    border-radius: 10px;
+   
+    
+}
+.form-input{
+position: relative;
+}
+
+.form1 .label-txt{
+    position: absolute;
+    left: 20px;
+    top:60px;
+    cursor: pointer;
+}
+.form1 .box-input{
+    width: 100%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-color: #4FA095;
+    padding:10px 10px ;
+    background: none;
+    margin-top: 50px;
+    outline: none;
+
+}
+.box-input:focus + label{
+    position: absolute;
+    top: 30px;
+    transition:0.5s;
+    left:0px;
+}
+.box-input:focus{
+background: #D9D9D9;
+border-radius: 5px;;
+
+}
+.form1 .pass{
+    padding:10px ;
+    text-align: right !important;
+}
+.submit{
+    background: #F18282;
+    padding:10px 30px;
+    border: none;
+    border-radius: 10px;
+    color:#fff;
+    font-weight:700;
+    font-size: 20px;
+}
+.or{
+    font-weight:600;
+    color:#4FA095;
+    font-size: 18px;
+    padding-top:20px;
+}
+.loginform a{
+    color:#F18282;
+}
+.social-img a{
+    padding:0px 20px;
+}
+.bottom-text{
+    padding-top:30px;
+}
+.extra{
+    font-size: 5rem;
+}
+.age-select{
+    width: 100%;
+    border:2px solid #4FA095;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding:10px 10px ;
+    background: none;
+    margin-top: 50px;
+    outline: none;
+    color: #4FA095;
+}
+.age-select:focus + label{
+    position: absolute;
+    top: 30px;
+    transition:0.5s;
+    left:0px;
+}
+.age-select:focus{
+background: #D9D9D9;
+border-radius: 5px;
+}
+.Qualification h3{
+    padding-top: 50px;
+}
+.Upload{
+    border:2px solid #4FA095;
+    width: 100%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding-bottom: 86px;
+
+}
+.upload-txt{
+    position: absolute;
+    top:50%;
+
+}
+.save-btn input,
+.save-btn a{
+padding: 10px;
+margin-top: 50px;
+color:#ffff;
+background: #4FA095;
+font-weight: 700;
+border: none;
+border-radius: 10px;
+text-decoration: none;
+}
+input[type=number]::-webkit-inner-spin-button {
+    appearance: none;
+}
+
+
+input[type=date]::-webkit-datetime-edit-text {
+    appearance: none;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-month-field{
+    appearance: none;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-day-field {
+    appearance: none;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-year-field {
+    appearance: none;
+    display: none;
+}
+.radio-btn{
+    padding: 20px 50px;
+}
